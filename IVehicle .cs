@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Abstract_Factory
 {
-    internal interface IVehicle
+    public interface IVehicle
     {
         string GetEngineType();
         string GetWheelType();

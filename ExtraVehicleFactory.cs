@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Abstract_Factory
 {
-    internal class ExtraVehicleFactory
+    internal class ExtraVehicleFactory : IVehicleFactory
     {
+        public IVehicle CreateCar()
+        {
+            return new ExtraVehicle();
+        }
     }
 }

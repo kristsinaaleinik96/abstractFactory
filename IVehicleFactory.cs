@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Abstract_Factory
 {
-    internal class VehicleFactory
+    public interface IVehicleFactory
     {
+        IVehicle CreateCar();
     }
 }
