@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Abstract_Factory
 {
-    internal class BusinessSuspension
+    internal class BusinessSuspension : ISuspension
     {
         public string GetSuspension() => "BusinessSuspension";
     }

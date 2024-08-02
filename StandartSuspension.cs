@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Abstract_Factory
 {
-    internal class StandartSuspension
+    internal class StandartSuspension : ISuspension
     {
         public string GetSuspension() => "StandartSuspension";
     }
