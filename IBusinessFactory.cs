@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Abstract_Factory
 {
-    internal interface IBusinessFactory
+    internal interface IBusinessFactory : IDetailsAbstractFactory
     {
         IEngine CreateEngine()
         {

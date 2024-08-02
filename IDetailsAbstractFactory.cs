@@ -8,8 +8,8 @@ namespace Abstract_Factory
 {
     internal interface IDetailsAbstractFactory
     {
-        string CreateEngine();
-        string CreateWheel();
-        string CreateSuspension();
+        IEngine CreateEngine();
+        IWheel CreateWheel();
+        ISuspension CreateSuspension();
     }
 }
