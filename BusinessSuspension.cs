@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Abstract_Factory
 {
-    public interface IVehicleFactory
+    internal class BusinessSuspension
     {
-        IVehicle CreateCar();
+        public string GetSuspension() => "BusinessSuspension";
     }
 }
