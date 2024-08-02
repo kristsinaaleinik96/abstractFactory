@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Abstract_Factory
 {
-    internal interface IWheel
+    internal class EcomomyEngine : IEngine
     {
-        string GetWheel();
+        public string GetEngine() => "EconomyEngine";
     }
 }
