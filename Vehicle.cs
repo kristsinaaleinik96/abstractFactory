@@ -18,5 +18,12 @@ namespace Abstract_Factory
             wheel = factory.CreateWheel();
             suspension = factory.CreateSuspension();
         }
+
+        public void ShowDetails()
+        {
+            Console.WriteLine($"Engine: {engine.GetEngine()}");
+            Console.WriteLine($"Wheel Diameter: {wheel.GetWheel()} inches");
+            Console.WriteLine($"Suspension: {suspension.GetSuspension()}");
+        }
     }
 }

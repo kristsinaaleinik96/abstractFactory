@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Abstract_Factory
 {
-    internal interface IWheel
+    public interface IWheel
     {
         string GetWheel();
     }

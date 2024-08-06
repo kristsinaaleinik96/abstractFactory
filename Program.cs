@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-            IEconomyFactory factory= new IEconomyFactory;
+            IDetailsAbstractFactory factory = new EconomyFactory();
+            Vehicle car = new Vehicle(factory);
+            car.ShowDetails();
            
         }
     }

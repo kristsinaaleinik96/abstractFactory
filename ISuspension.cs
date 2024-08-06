@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Abstract_Factory
 {
-    internal interface ISuspension
+    public interface ISuspension
     {
         string GetSuspension();
     }

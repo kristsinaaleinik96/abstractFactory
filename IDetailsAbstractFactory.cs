@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Abstract_Factory
 {
-    internal interface IDetailsAbstractFactory
+    public interface IDetailsAbstractFactory
     {
         IEngine CreateEngine();
         IWheel CreateWheel();

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Abstract_Factory
 {
-    internal interface IEngine
+    public interface IEngine
     {
         string GetEngine();
     }
